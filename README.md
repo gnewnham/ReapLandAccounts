@@ -1,2 +1,2 @@
 # ReapLandAccounts
-Backup of notebooks and data that runs on the DEA Sandbox, from the Reap Land Accounts project 
+Notebooks and data that run in the DEA Sandbox, for the REAP Land Accounts project 
