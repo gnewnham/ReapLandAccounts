@@ -1,0 +1,325 @@
+Metadata format: ISO 19139
+Murray-Darling Basin Boundary - Water Act 2007
+ISO 19139 metadata content
+Resource Identification Information
+Reference System Information
+Data Quality Information
+	Data Quality1
+	Data Quality2
+	Data Quality3
+	Data Quality4
+	Data Quality5
+Distribution Information
+Metadata Information
+
+--------------------------------------------------------------------------------
+
+Resource Identification Information
+Citation
+Title Murray-Darling Basin Boundary - Water Act 2007
+
+
+Creation date  2008-04-03
+Publication date  2019-01-03
+
+
+Themes or categories of the resource boundaries
+
+
+Theme keywords
+Keywords Australia
+
+Thesaurus
+Title ANZLIC Jurisdictions
+
+Unique resource identifier Value http://asdd.ga.gov.au/asdd/profileinfo/anzlic-jurisdic.xml#anzlic-jurisdic
+
+
+Theme keywords
+Keywords WATER-Hydrology, BOUNDARIES-Administrative
+
+Thesaurus
+Title ANZLIC Search Words
+
+Unique resource identifier  Value http://asdd.ga.gov.au/asdd/profileinfo/anzlic-theme.xml#anzlic-theme
+
+
+
+Abstract
+The boundary of the Murray-Darling Basin as defined in Section 4 (1) of  the Water Act 2007. The boundary was derived from the dataset that is titled "Australia’s River Basins 1997" and is dated 30 June 1997.
+
+Dataset language  English
+Dataset character set utf8
+
+
+Status completed
+Maintenance
+Update frequency notPlanned
+
+
+Resource constraints
+Legal constraints
+Access constraints  copyright
+
+Limitations of use
+© Commonwealth of Australia (Murray–Darling Basin Authority) 2017
+
+
+Resource constraints
+Legal constraints
+Access constraints  license
+
+Limitations of use
+Licensed under the Creative Commons Attribution 4.0 International license (CC-BY). Under the following conditions: 
+- You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. 
+
+
+Resource constraints
+Legal constraints
+Use Constraints  copyright
+
+Limitations of use
+© Commonwealth of Australia (Murray–Darling Basin Authority) 2017
+
+
+Resource constraints
+Legal constraints
+Use Constraints  license
+
+Limitations of use
+Licensed under the Creative Commons Attribution 4.0 International license (CC-BY). Under the following conditions: 
+- You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. 
+
+
+Spatial representation type vector
+
+Format
+Name *.shp
+
+
+Spatial resolution
+Dataset's scale
+Scale denominator 250000
+
+
+Extent
+Geographic extent
+Bounding rectangle
+West longitude 138.568467
+East longitude 152.488546
+North latitude -24.585618
+South latitude -37.682084
+
+
+Extent
+Geographic extent
+Value aus
+Authority that defines the value
+Title ANZMet Lite Country codelist
+
+Unique resource identifier  Value http://asdd.ga.gov.au/asdd/profileinfo/anzlic-country.xml#Country
+
+
+Extent
+Geographic extent
+Value MURRAY_DARLING
+Authority that defines the value
+Title ANZLIC Geographic Extent Name Register
+
+Unique resource identifier  Value http://asdd.ga.gov.au/asdd/profileinfo/anzlic-allgens.xml#anzlic-drainage_division_river_basin
+
+
+
+Point of contact - custodian
+Organization's name Murray-Darling Basin Authority
+Contact's position Information and Data
+
+Contact information
+Phone
+Voice 61 2 6279 0100
+
+Address
+Delivery point GPO Box 1801
+City CANBERRA
+Administrative area ACT
+Postal code 2601
+Country Australia
+e-mail address GIS@mdba.gov.au
+
+
+Point of contact - originator
+Organization's name Australian Government Department of the Environment, Water, Heritage and the Arts
+Contact's position LandWater Data Manager
+
+Contact information
+Phone
+Voice 02 6274 1111
+Fax 02 6274 1666
+
+Address
+Delivery point GPO Box 787
+City Canberra
+Administrative area ACT
+Postal code 2601
+Country Australia
+e-mail address landwater.metadata@environment.gov.au
+
+
+
+Reference System Information
+Reference system identifier
+Value EPSG::4283
+
+
+
+Data Quality - Description1
+Scope of quality information
+Resource level dataset
+
+Lineage
+Lineage statement
+Data for basin boundaries have been captured by relevant State and Territory authorities from 1:10 000 to 1:250 000 scale source material. The balance of data are from Geoscience Australia's GEODATA Coast 100K which includes coastlines and State and Territory borders.
+
+The following processing has been undertaken by the Department:
+- Projected from AGD66 to GDA94 using NTV2 transformation. Minor attribute edits.
+- Dissolved by BNAME (Basin name) to form 245 features. Attribute edits.
+- Dissolved by DNUM (Division number) and DNAME (Division name) to form 12 features.
+- Minor changes to field names
+- Created a subset with the following query: DDIV_NAME = '4. Murray-Darling Drainage Division'
+- Minor attribute edit to DDIV_NAME (edited to 'Murray-Darling Basin') and dropped DDIV_NUM field.
+- Area_ha field added, and area in hectares calculated using Albers projection with GDA94 datum.
+
+
+Data Quality - Description2
+Scope of quality information
+Resource level dataset
+
+Data quality report - Absolute external positional accuracy
+Test date 2008-04-03 00:00:00
+
+Conformance test results 
+Test passed  true
+Result explanation Variable - dependant on scale of source material
+
+Product specification
+Title ERIN Check
+
+Publication date  2000-01-01
+
+
+Data Quality - Description3
+Scope of quality information
+Resource level dataset
+
+Data quality report - Absolute external positional accuracy
+Test date 2008-04-03 00:00:00
+
+Conformance test results 
+Test passed  true
+Result explanation Data is topologically correct
+
+Product specification
+Title ERIN Check
+
+Publication date  2000-01-01
+
+
+
+Data Quality - Description4
+Scope of quality information
+Resource level dataset
+
+Data quality report - Absolute external positional accuracy
+Test date 2008-04-03 00:00:00
+
+Conformance test results 
+Test passed  true
+Result explanation Complete for Australia.
+
+Product specification
+Title ERIN Check
+
+Publication date  2000-01-01
+
+
+Data Quality - Description5
+Scope of quality information
+Resource level dataset
+
+Data quality report - Absolute external positional accuracy
+Test date 2019-01-04 00:00:00
+
+Conformance test results 
+Test passed  true
+Result explanation Area boundary covered by boundary of GISPROD BOUNDARIES/MDB_BOUNDARY. Area boundary is not identical to reprojected Australia's River Basins 1997 with differences in the order of 1mm.
+
+Product specification
+Title ArcGIS Topology
+
+
+
+Distribution Information
+Distributor
+Distributor information - pointOfContact
+Organization's name Murray-Darling Basin Authority
+Contact's position Information and Data
+
+Contact information
+Phone
+Voice 61 2 6279 0100
+
+Address
+Delivery point GPO Box 1801 
+City CANBERRA
+Administrative area ACT
+Postal code 2601
+Country Australia
+e-mail address GIS@mdba.gov.au
+
+
+Format
+Name ESRI Shapefile
+
+
+Transfer options
+Transfer size 243
+Units of distribution KB
+
+
+Online resource
+Name of resource Murray-Darling Basin Authority Maps and spatial data
+Online location https://www.mdba.gov.au/publications/maps-spatial-data
+Function performed download
+
+
+
+Metadata Information
+Last update 2019-01-03
+
+
+Metadata contact - custodian
+Organization's name Murray-Darling Basin Authority
+Contact's position Information and Data
+
+Contact information
+Phone
+Voice 61 2 6279 0100
+
+Address
+Delivery point GPO Box 1801
+City CANBERRA
+Administrative area ACT
+Postal code 2601
+Country Australia
+e-mail address GIS@mdba.gov.au
+
+
+Scope of the data described by the metadata dataset
+
+
+Metadata language  English
+Metadata character set utf8
+
+
+Name of the metadata standard used ANZLIC Metadata Profile: An Australian/New Zealand Profile of AS/NZS ISO 19115:2005, Geographic information - Metadata
+Version of the metadata standard 1.1
